@@ -7,11 +7,11 @@
 "scripts": {
     "dev": "webpack-dev-server --host 0.0.0.0 --inline --progress",
     "commit": "git-cz",
-    "genlog": "conventional-changelog -p angular -i .github/CHANGELOG.md -s"
   },
 "config": {
         "commitizen": {
           "path": "./node_modules/cz-conventional-changelog"
         }
-    }
+    },
+"genlog": "conventional-changelog -p angular -i .github/CHANGELOG.md -s"
 }
